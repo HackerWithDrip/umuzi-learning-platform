@@ -8,7 +8,14 @@
 
 .transition-fade {
     opacity: 1;
-    transition: 500ms;
+    transition: 700ms;
+    transform: translateX(0);
+    transform-origin: left;
+}
+
+.transition-fade {
+    opacity: 1;
+    transition: 600ms;
     transform: translateX(0);
     transform-origin: left;
 }
@@ -19,8 +26,8 @@ html.is-animating .transition-fade {
 }
 
 html.is-leaving .transition-fade {
-    opacity: 0;
-    transform: translateX(0);
+    opacity: 1;
+    transform: ease-out;
 }
 
 
@@ -120,7 +127,7 @@ html.is-leaving .transition-fade {
 
 .left-col button:hover,
 .left-col button:focus .left-col button {
-    transform: scale(1.2);
+    transform: scale(1.5);
     opacity: .5;
 }
 
@@ -209,7 +216,7 @@ html.is-leaving .transition-fade {
 }
 
 
-/* for each caterogy card */
+/* for each category card */
 
 .category {
     margin: 1em 1em;
@@ -223,4 +230,9 @@ html.is-leaving .transition-fade {
 .category:focus .category {
     transform: scale(1.2);
     opacity: .5;
+}
+
+.nav__link:hover,
+.nav__link:focus .nav_link {
+    color: #FF7C1F
 }
