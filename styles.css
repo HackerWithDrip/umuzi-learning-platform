@@ -115,6 +115,13 @@ html.is-leaving .transition-fade {
     margin-top: 3rem;
     padding: 4px 28px;
     font-size: 16px;
+    transition: transform 400ms cubic-bezier(.5, 0, .5, 1), opacity 200ms linear;
+}
+
+.left-col button:hover,
+.left-col button:focus .left-col button {
+    transform: scale(1.2);
+    opacity: .5;
 }
 
 .left-col img {
@@ -209,7 +216,7 @@ html.is-leaving .transition-fade {
 }
 
 .category {
-    transition: transform 300ms cubic-bezier(.5, 0, .5, 1), opacity 150ms linear;
+    transition: transform 500ms cubic-bezier(.5, 0, .5, 1), opacity 200ms linear;
 }
 
 .category:hover,
