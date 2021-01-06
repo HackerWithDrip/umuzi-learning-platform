@@ -1,1 +1,88 @@
-/* No CSS *//*# sourceMappingURL=styles.css.map */
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+/* VARIABLES, FONTS & MIXINS */
+@font-face {
+  font-family: font-main;
+  src: url(../fonts/druk/DrukTextWide-Medium.otf);
+}
+
+/* WEBSITE */
+.site {
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  background-image: -webkit-gradient(linear, left top, right bottom, from(#f6d166), to(#fda283));
+  background-image: linear-gradient(to bottom right, #f6d166, #fda283);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 3.5rem 4rem;
+  /* MAIN BACKGROUND */
+}
+
+.site .background {
+  height: 100vh;
+  width: 100vw;
+  background-image: radial-gradient(#3a404b, #21242b);
+  -webkit-box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034), 0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06), 0 22.3px 17.9px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px rgba(0, 0, 0, 0.086), 0 100px 80px rgba(0, 0, 0, 0.12);
+          box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034), 0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06), 0 22.3px 17.9px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px rgba(0, 0, 0, 0.086), 0 100px 80px rgba(0, 0, 0, 0.12);
+  padding: 1.5rem;
+}
+
+.site .background__navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-size: 0.65rem;
+  text-transform: uppercase;
+}
+
+.site .background__navbar--logo {
+  width: 8rem;
+  margin-left: 4rem;
+}
+
+.site .background__navbar--logo:hover {
+  cursor: pointer;
+}
+
+.site .background__navbar--list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  margin-right: 4rem;
+  padding-top: 1.3rem;
+}
+
+.site .background__navbar--list li {
+  color: white;
+  margin: 0 2rem;
+  font-family: font-main;
+  -webkit-transition: all 0.35s ease-in-out;
+  transition: all 0.35s ease-in-out;
+}
+
+.site .background__navbar--list li:hover {
+  cursor: pointer;
+  color: #f9a826;
+}
+
+.site .background__navbar--list a {
+  text-decoration: none;
+}
+/*# sourceMappingURL=styles.css.map */
