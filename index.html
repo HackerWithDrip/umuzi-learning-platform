@@ -1,67 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Home</title>
     <script src="https://unpkg.com/swup@latest/dist/swup.min.js"></script>
-    <script defer src="script.js"></script>
-    <link rel="stylesheet" href="styles.css">
-</head>
+    <script defer src="./js/script.js"></script>
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
 
-<body>
-
+  <body>
     <div class="container">
-        <nav class="navbar">
-            <div class="logo">
-                <a href="index.html"><img src="Umuzi-Logo-white.png" alt="Umuzi Logo"></a>
+      <nav class="navbar">
+        <div class="logo">
+          <a href="index.html"
+            ><img src="Umuzi-Logo-white.png" alt="Umuzi Logo"
+          /></a>
+        </div>
+        <div class="nav__list">
+          <ul>
+            <li class="nav__item">
+              <a href="/index.html" class="nav__link">Home</a>
+            </li>
+            <li class="nav__item">
+              <a href="/about.html" class="nav__link">About</a>
+            </li>
+            <li class="nav__item">
+              <a href="main-category.html" class="nav__link">Category</a>
+            </li>
+            <li class="nav__item">
+              <a href="https://www.umuzi.org/" target="_blank" class="nav__link"
+                >Umuzi's Official Site</a
+              >
+            </li>
+            <li class="nav__item">
+              <a href="mailto:info@umuzi.org" class="nav__link">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <!-- Introduction -->
+      <main id="swup" class="transition-fade">
+        <div class="content-row">
+          <div class="left-col">
+            <h2 class="first-header">
+              <a href="#home"> UMUZI <strong>LEARNING</strong></a>
+            </h2>
+            <h1 class="left-col-header">PlATFORM</h1>
+            <h3>DIGITAL SKILLS FOR TECH CAREERS</h3>
+            <p>
+              AN ONLINE LEARNING PlATFORM CREATED TO ENHANCE NEW UMUZI RECRUITS
+              LEARNING EXPERIENCE
+            </p>
+            <a href="main-category.html"
+              ><button class="left-col-button">view categories</button></a
+            >
+            <div class="sponsors">
+              <img src="/images/old-mutual-logo1.png" alt="" />
+              <img src="/images/sanlam-logo2.png" alt="" />
+              <img src="/images/wt-logo1.png" alt="" />
+              <img src="/images/deloitte-logo1.png" alt="" />
+              <img src="/images/discovery-logo1.png" alt="" />
             </div>
-            <div class="nav__list">
-                <ul>
-                    <li class="nav__item"><a href="/index.html" class="nav__link">Home</a></li>
-                    <li class="nav__item"><a href="/about.html" class="nav__link">About</a></li>
-                    <li class="nav__item"><a href="main-category.html" class="nav__link">Category</a></li>
-                    <li class="nav__item"><a href="https://www.umuzi.org/" target="_blank" class="nav__link">Umuzi's Official Site</a></li>
-                    <li class="nav__item"><a href="mailto:info@umuzi.org" class="nav__link">Contact</a></li>
-                </ul>
-
-            </div>
-
-        </nav>
-
-
-        <!-- Introduction -->
-        <main id="swup" class="transition-fade">
-            <div class="content-row">
-                <div class="left-col">
-                    <h2 class="first-header">
-                        <a href="#home"> UMUZI <strong>LEARNING</strong></a>
-
-                    </h2>
-                    <h1 class="left-col-header">PlATFORM</h1>
-                    <h3>DIGITAL SKILLS FOR TECH CAREERS</h3>
-                    <p>AN ONLINE LEARNING PlATFORM CREATED TO ENHANCE NEW UMUZI RECRUITS LEARNING EXPERIENCE
-                    </p>
-                    <a href="main-category.html"><button class="left-col-button">view categories</button></a>
-                    <div class="sponsors">
-                        <img src="/images/old-mutual-logo1.png" alt="">
-                        <img src="/images/sanlam-logo2.png" alt="">
-                        <img src="/images/wt-logo1.png" alt="">
-                        <img src="/images/deloitte-logo1.png" alt="">
-                        <img src="/images/discovery-logo1.png" alt="">
-
-                    </div>
-
-                </div>
-                <div class="right-col">
-                    <img src="/images/model.png" alt="">
-
-                </div>
-            </div>
-        </main>
-
-
+          </div>
+          <div class="right-col">
+            <img src="/images/model.png" alt="" />
+          </div>
+        </div>
+      </main>
     </div>
-
-</body>
+  </body>
+</html>
