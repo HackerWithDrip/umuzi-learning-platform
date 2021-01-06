@@ -45,13 +45,14 @@
     
     margin: 7px 90px;
     background-color: #ffffff;
-    height: 200px;
+    height: 232px;
     font-size: small;
 }
 .index{
     text-align: left;
     padding-left: 20px;
     padding-top: 20px;
+    position: relative;
 }
 
 .course-btn{
@@ -65,13 +66,18 @@
 }
 a{
     color: black;
+    font-size: 0.8em;
+    font-weight: 500;
+    letter-spacing: 0.1em;
+    font-weight: bold;
 }
 
 .bottom-heading{
+    font-family: "Druk Text Wide Web Medium"!important;
     text-align: center;
-    background-color: #ff662c;
-    width: 100%;
+    background: linear-gradient(90deg, #eec34b 0%, #ffd152 50%, #f37a29cd 100%);    width: 100%;
     margin-top: 40px;
     line-height: 3em;
     vertical-align: middle;
+    position: relative;
 }
