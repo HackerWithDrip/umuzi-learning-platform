@@ -41,7 +41,7 @@ html.is-leaving .transition-fade {
 /*end of transitioning  */
 
 body {
-    background-image: linear-gradient(90deg, #f6cd5c 0%, #f39f63 50%, #f5a165 100%);
+    background-image: linear-gradient(90deg, #f7d166 0%, #f7d166 50%, #fda283 100%);
     ;
 }
 
@@ -85,7 +85,7 @@ body {
 }
 
 .nav__list ul li a :hover {
-    color: #FF7C1F;
+    color: #FF662c;
 }
 
 .content-row {
@@ -106,7 +106,7 @@ body {
 }
 
 .first-header a {
-    color: #FF7C1F;
+    color: #FF662c;
     text-decoration: none;
     font-size: 20px;
 }
@@ -132,7 +132,7 @@ body {
 }
 
 .left-col button {
-    background-color: #FF7C1F;
+    background-color: #FF662c;
     border: none;
     color: white;
     margin-top: 3rem;
@@ -177,7 +177,7 @@ body {
 }
 
 .about-header {
-    color: #FF7C1F;
+    color: #FF662c;
     text-decoration: none;
     font-size: bold 30px;
 }
@@ -251,5 +251,5 @@ body {
 
 .nav__link:hover,
 .nav__link:focus .nav_link {
-    color: #FF7C1F
+    color: #FF662c
 }
