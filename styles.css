@@ -3,6 +3,13 @@
     padding: 0;
 }
 
+:root {
+    --bs: 1em 1em 2em rgba(0, 0, 0, .25), 0.5em 0.5em 1em rgba(0, 0, 0, .15);
+}
+
+
+/* bs=box shadow */
+
 
 /* transition the pages */
 
@@ -46,6 +53,7 @@ body {
     background-image: linear-gradient(90deg, #181719 0%, #3a3d40 50%, #181719 100%);
     margin: 4em 4em 4em 4em;
     align-content: center;
+    box-shadow: var(--bs)
 }
 
 .navbar {
@@ -225,13 +233,6 @@ body {
 
 
 /* for each category card */
-
-:root {
-    --bs: 1em 1em 2em rgba(0, 0, 0, .25), 0.5em 0.5em 1em rgba(0, 0, 0, .15);
-}
-
-
-/* bs=box shadow */
 
 .imge {
     box-shadow: var(--bs);
