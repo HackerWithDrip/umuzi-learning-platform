@@ -11,6 +11,16 @@
   src: url(../fonts/druk/DrukTextWide-Medium.otf);
 }
 
+@font-face {
+  font-family: font-secondary;
+  src: url(../fonts/druk/DrukTextWide-Super.ttf);
+}
+
+@font-face {
+  font-family: font-tertiary;
+  src: url(../fonts/arial/arial.ttf);
+}
+
 /* WEBSITE */
 .site {
   height: -webkit-fit-content;
@@ -38,6 +48,16 @@
   -webkit-box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034), 0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06), 0 22.3px 17.9px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px rgba(0, 0, 0, 0.086), 0 100px 80px rgba(0, 0, 0, 0.12);
           box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034), 0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06), 0 22.3px 17.9px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px rgba(0, 0, 0, 0.086), 0 100px 80px rgba(0, 0, 0, 0.12);
   padding: 1.5rem 4rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .site .background__navbar {
@@ -82,5 +102,49 @@
 
 .site .background__navbar--list a {
   text-decoration: none;
+}
+
+.site .background__content--p1 {
+  color: #fff;
+  text-transform: uppercase;
+  font-family: font-main;
+  font-size: 1.7rem;
+  -webkit-transform: scaleY(0.8);
+          transform: scaleY(0.8);
+}
+
+.site .background__content--p1 span {
+  color: #f9a826;
+}
+
+.site .background__content--p2 {
+  color: #fff;
+  text-transform: uppercase;
+  font-family: font-secondary;
+  font-size: 3.5rem;
+  -webkit-transform: scaleY(0.8);
+          transform: scaleY(0.8);
+  margin-top: -1.1rem;
+}
+
+.site .background__content--p3 {
+  color: #fff;
+  text-transform: uppercase;
+  font-family: font-tertiary;
+  font-size: 0.6rem;
+  margin-top: -0.65rem;
+  margin-left: 0.3rem;
+  font-weight: bold;
+  letter-spacing: 0.2rem;
+}
+
+.site .background__content--p4 {
+  color: #fff;
+  text-transform: uppercase;
+  font-family: font-tertiary;
+  font-size: 0.48rem;
+  margin-top: 1.2rem;
+  margin-left: 0.3rem;
+  letter-spacing: 0.38rem;
 }
 /*# sourceMappingURL=styles.css.map */
