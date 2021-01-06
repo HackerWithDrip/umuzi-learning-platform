@@ -33,11 +33,19 @@ html.is-leaving .transition-fade {
 
 /*end of transitioning  */
 
+body {
+    background-image: linear-gradient(90deg, #f6cd5c 0%, #f39f63 50%, #f5a165 100%);
+    ;
+}
+
 .container {
     height: 140vh;
-    width: 100%;
+    width: 90%;
     position: relative;
-    background: #151516;
+    background-color: #000;
+    background-image: linear-gradient(90deg, #181719 0%, #3a3d40 50%, #181719 100%);
+    margin: 4em 4em 4em 4em;
+    align-content: center;
 }
 
 .navbar {
@@ -49,7 +57,7 @@ html.is-leaving .transition-fade {
 }
 
 .logo img {
-    width: 50px;
+    width: 40%;
     cursor: pointer;
     margin: 35px 0;
 }
@@ -218,11 +226,19 @@ html.is-leaving .transition-fade {
 
 /* for each category card */
 
-.category {
-    margin: 1em 1em;
+:root {
+    --bs: 1em 1em 2em rgba(0, 0, 0, .25), 0.5em 0.5em 1em rgba(0, 0, 0, .15);
+}
+
+
+/* bs=box shadow */
+
+.imge {
+    box-shadow: var(--bs);
 }
 
 .category {
+    margin: 1em 1em;
     transition: transform 500ms cubic-bezier(.5, 0, .5, 1), opacity 200ms linear;
 }
 
