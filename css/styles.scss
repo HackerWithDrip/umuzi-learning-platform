@@ -30,7 +30,7 @@ $primary-orange: #f9a826;
       0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06),
       0 22.3px 17.9px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px rgba(0, 0, 0, 0.086),
       0 100px 80px rgba(0, 0, 0, 0.12);
-    padding: 1.5rem;
+    padding: 1.5rem 4rem;
 
     &__navbar {
       display: flex;
@@ -40,7 +40,6 @@ $primary-orange: #f9a826;
 
       &--logo {
         width: 8rem;
-        margin-left: 4rem;
         &:hover {
           cursor: pointer;
         }
@@ -49,11 +48,10 @@ $primary-orange: #f9a826;
       &--list {
         display: flex;
         list-style: none;
-        margin-right: 4rem;
         padding-top: 1.3rem;
 
         li {
-          color: white;
+          color: #fff;
           margin: 0 2rem;
           font-family: font-main;
           transition: all 0.35s ease-in-out;
