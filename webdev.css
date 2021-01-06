@@ -1,0 +1,77 @@
+@import url(//db.onlinewebfonts.com/c/3724259186746d86859fbb0fde0fa44a?family=Druk+Text+Wide+Web+Medium);
+
+*{
+}
+
+.web-dev {
+    text-align: center;
+    color: #ffffff;
+}
+.web-dev h1{
+    padding-top: 35px;
+    font-family: "Druk Text Wide Web Medium";
+    /* font-size: 72px; */
+    background: linear-gradient(to right, #f7d166, #fda283);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.web-dev p{
+    font-family: Arial;
+    font-size: 13.5px;
+    letter-spacing: 0.1em;
+    word-spacing: 0.4em;
+}
+.btn{
+    margin-top: 20px;
+    background-color: #ff662c;
+    font-family: Arial;
+    cursor: pointer;
+    padding: 10px 23px;
+    font-size: x-small;
+    border: none;
+}
+.description{
+    padding-left: 317px;
+    padding-right: 305px;
+    padding-top: 20px;
+}
+
+.camp{
+    padding: 50px 50px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.content{
+    
+    margin: 7px 90px;
+    background-color: #ffffff;
+    height: 200px;
+    font-size: small;
+}
+.index{
+    text-align: left;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.course-btn{
+    background-color: #ff662c;
+    font-family: Arial;
+    padding: 2px 4  px;
+    border: none;
+    font-size: 0.8em;
+    margin-top: 8px;
+
+}
+a{
+    color: black;
+}
+
+.bottom-heading{
+    text-align: center;
+    background-color: #ff662c;
+    width: 100%;
+    margin-top: 40px;
+    line-height: 3em;
+    vertical-align: middle;
+}
