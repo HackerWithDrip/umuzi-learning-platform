@@ -45,6 +45,7 @@ $shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034), 0 6.7px 5.3px rgba(0, 0, 0, 0.048),
     flex-direction: column;
     justify-content: space-between;
 
+    /* NAVIGATION */
     &__navbar {
       display: flex;
       justify-content: space-between;
@@ -82,6 +83,7 @@ $shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034), 0 6.7px 5.3px rgba(0, 0, 0, 0.048),
       }
     }
 
+    /* MAIN CONTENT */
     &__content {
       position: relative;
       &--p1 {
@@ -153,6 +155,7 @@ $shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034), 0 6.7px 5.3px rgba(0, 0, 0, 0.048),
       }
     }
 
+    /* SPONSORS */
     &__sponsors {
       display: flex;
       align-items: center;
