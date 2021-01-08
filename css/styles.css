@@ -61,6 +61,7 @@
   /* NAVIGATION */
   /* MAIN CONTENT */
   /* SPONSORS */
+  /* SOCIALS */
 }
 
 .site .background__navbar {
@@ -187,12 +188,12 @@
 
 .site .background__content .background__home--image {
   position: absolute;
+  width: 21.2rem;
   width: 27.5%;
   margin-left: 32rem;
   margin-top: -21rem;
   -o-object-fit: contain;
      object-fit: contain;
-  z-index: 1;
 }
 
 .site .background__content .background__about--title {
@@ -208,15 +209,26 @@
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
+  margin-bottom: 2rem;
 }
 
 .site .background__content .background__about--p1, .site .background__content .background__about--p2, .site .background__content .background__about--p3 {
   color: #fff;
   text-transform: uppercase;
   font-family: font-tertiary;
-  font-size: 0.6rem;
+  font-size: 0.65rem;
   letter-spacing: 0.2rem;
   margin-bottom: 2.5rem;
+  line-height: 1.65rem;
+}
+
+.site .background__content .background__about--image {
+  position: absolute;
+  width: 36%;
+  margin-left: 48rem;
+  margin-top: -34.5rem;
+  -o-object-fit: contain;
+     object-fit: contain;
 }
 
 .site .background__sponsors {
@@ -231,5 +243,24 @@
 .site .background__sponsors img {
   width: 4rem;
   margin: 0 2.5rem;
+}
+
+.site .background__socials {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: 2rem;
+}
+
+.site .background__socials a {
+  text-decoration: none;
+}
+
+.site .background__socials img {
+  width: 1.8rem;
+  margin: 0 2rem;
 }
 /*# sourceMappingURL=styles.css.map */
