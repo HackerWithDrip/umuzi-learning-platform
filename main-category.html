@@ -2,62 +2,62 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Main Category</title>
-    <script src="https://unpkg.com/swup@latest/dist/swup.min.js"></script>
-    <script defer src="script.js"></script>
-    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Umuzi Learning Platform</title>
+    <link rel="stylesheet" href="./css/styles.css" />
 </head>
 
 <body>
-
-    <div class="container">
-        <nav class="navbar">
-            <div class="logo">
-                <a href="index.html"><img src="Umuzi-Logo-white.png" alt="Umuzi Logo"></a>
-            </div>
-            <div class="nav__list">
-                <ul>
-                    <li class="nav__item"><a href="/index.html" class="nav__link">Home</a></li>
-                    <li class="nav__item"><a href="/about.html" class="nav__link">About</a></li>
-                    <li class="nav__item"><a href="main-category.html" class="nav__link">Category</a></li>
-                    <li class="nav__item"><a href="https://www.umuzi.org/" target="_blank" class="nav__link">Umuzi's Official Site</a></li>
-                    <li class="nav__item"><a href="mailto:info@umuzi.org" class="nav__link">Contact</a></li>
+    <!-- WEBSITE -->
+    <main class="site">
+        <!-- MAIN BACKGROUND -->
+        <div class="background">
+            <!-- NAVIGATION -->
+            <nav class="background__navbar">
+                <a href="./index.html">
+                    <img src="./img/logos/Umuzi-Logo-white.png" alt="umuzi-logo" class="background__navbar--logo" />
+                </a>
+                <ul class="background__navbar--list">
+                    <a href="./index.html">
+                        <li>Home</li>
+                    </a>
+                    <a href="#">
+                        <li>Category</li>
+                    </a>
+                    <a href="#">
+                        <li>About</li>
+                    </a>
+                    <a href="#">
+                        <li>Contact</li>
+                    </a>
+                    <a href="#">
+                        <li>Umuzi's Official Site</li>
+                    </a>
                 </ul>
+            </nav>
 
-            </div>
+            <!-- Main Category  -->
+            <main id="swup" class="transition-fade">
+                <div class="categories">
+                    <div class="category">
+                        <a href=""><img src="img/Web-Dev.png" class="imge" alt="web-dev" /></a>
+                    </div>
 
-        </nav>
+                    <div class="category">
+                        <a href=""><img src="img/Data-science.png" class="imge" alt="data-science" /></a>
+                    </div>
 
+                    <div class="category">
+                        <a href=""><img src="img/UX.png" class="imge" alt="ux-strategy" /></a>
+                    </div>
 
-        <!-- Main Category  -->
-        <main id="swup" class="transition-fade">
-
-            <div class="categories">
-
-                <div class="category">
-                    <a href=""><img src="Web-Dev.png" class="imge" alt="web-dev"></a>
+                    <div class="category">
+                        <a href=""><img src="img/UI.png" class="imge" alt="ui-design" /></a>
+                    </div>
                 </div>
-
-                <div class="category">
-                    <a href=""><img src="Data-science.png" class="imge" alt="data-science"></a>
-                </div>
-
-                <div class="category">
-                    <a href=""><img src="UX.png" class="imge" alt="ux-strategy"></a>
-                </div>
-
-                <div class="category">
-                    <a href=""><img src="UI.png" class="imge" alt="ui-design"></a>
-                </div>
-
-            </div>
-
-
-        </main>
-
-
-    </div>
-
+            </main>
+        </div>
 </body>
+
+</html>
