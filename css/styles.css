@@ -210,6 +210,15 @@
   width: fit-content;
 }
 
+.site .background__content .background__about--p1, .site .background__content .background__about--p2, .site .background__content .background__about--p3 {
+  color: #fff;
+  text-transform: uppercase;
+  font-family: font-tertiary;
+  font-size: 0.6rem;
+  letter-spacing: 0.2rem;
+  margin-bottom: 2.5rem;
+}
+
 .site .background__sponsors {
   display: -webkit-box;
   display: -ms-flexbox;

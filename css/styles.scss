@@ -171,6 +171,18 @@ $gradient-orange: linear-gradient(to bottom right, #f6d166, #fda283);
           transform: scaleY(0.8);
           width: fit-content;
         }
+
+        &--p1,
+        &--p2,
+        &--p3 {
+          color: #fff;
+          text-transform: uppercase;
+          font-family: font-tertiary;
+          font-size: 0.6rem;
+          // font-weight: bold;
+          letter-spacing: 0.2rem;
+          margin-bottom: 2.5rem;
+        }
       }
     }
 
