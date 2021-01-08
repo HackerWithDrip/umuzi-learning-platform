@@ -1,0 +1,92 @@
+footer {
+	line-height: 24px;
+	color: #ffffff;
+	background-color: #ff662c;
+}
+
+footer .art {
+	background-image: linear-gradient(90deg, #181719 0%, #3a3d40 50%, #181719 100%);
+	padding: 16px;
+	padding-top: 48px;
+	clip-path: polygon(0% 5%, 15% 0%, 100% 10%, 100% 100%, 0% 100%);
+}
+footer .content {
+	max-width: 1080px;
+	margin: auto;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-gap: 16px;
+}
+
+section img {
+	width: 25%;
+	cursor: pointer;
+}
+
+section p {
+	font-size: 12px;
+}
+
+footer header {
+	font-size: 21px;
+	padding-block: 8px;
+}
+
+footer .content a {
+	display: block;
+	padding-block: 1px;
+	color: white;
+	opacity: 0.65;
+	text-decoration: none;
+}
+
+footer .content a:hover {
+	opacity: 1;
+	color: #ff662c;
+	font-size: 18px;
+}
+footer input {
+	border-style: solid;
+	line-height: 12px;
+	padding: 12px 16px;
+	font-size: 0.8rem;
+	width: 59%;
+	margin-block: 8px;
+	border-radius: 8px;
+	border-width: 1px;
+}
+
+footer input [type='email'] {
+	background-color: #ffffff;
+}
+.subnit-button {
+	color: #ff662c;
+}
+
+footer header {
+	color: #ff662c;
+	font-size: 30px;
+	font-weight: 900;
+}
+
+footer .notice {
+	text-align: center;
+	border-width: 12px;
+	border-top: 1px solid #ffffff;
+	border-color: #3a3d40;
+}
+
+.footer-socials {
+	display: grid;
+	margin-block: 16px;
+	grid-template-columns: repeat(4, 1fr);
+	grid-gap: 16px;
+}
+
+.footer-socials a {
+	font-size: 15px;
+	padding: 3px;
+	text-align: center;
+	width: 50%;
+	color: #ff662c;
+}
