@@ -1,12 +1,11 @@
 @import url(//db.onlinewebfonts.com/c/3724259186746d86859fbb0fde0fa44a?family=Druk+Text+Wide+Web+Medium);
-
-
 .web-dev {
     text-align: center;
     color: #ffffff;
     margin-bottom: 3em;
 }
-.web-dev h1{
+
+.web-dev h1 {
     padding-top: 4px;
     font-family: "Druk Text Wide Web Medium";
     /* font-size: 72px; */
@@ -14,16 +13,18 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-.web-dev p{
+
+.web-dev p {
     font-family: font-tertiary;
     font-size: 13.5px;
     letter-spacing: 0.1em;
     word-spacing: 0.2em;
     text-align: center;
-    margin: 0 15em;
+    margin: 0 auto;
     line-height: 2;
 }
-.btn{
+
+.btn {
     margin-top: 13px;
     background-color: #f9a826;
     color: #ffffff;
@@ -34,42 +35,55 @@
     font-weight: bold;
     border: none;
     letter-spacing: 0.1rem;
+    -webkit-transition: all 0.35s ease-in-out;
+    transition: all 0.35s ease-in-out;
 }
-.description{
+
+.btn:hover,
+.btn:focus .btn {
+    transform: scale(1.2);
+    -webkit-box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034), 0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06), 0 22.3px 17.9px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px rgba(0, 0, 0, 0.086), 0 100px 80px rgba(0, 0, 0, 0.12);
+    box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034), 0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06), 0 22.3px 17.9px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px rgba(0, 0, 0, 0.086), 0 100px 80px rgba(0, 0, 0, 0.12);
+    opacity: 0.7;
+}
+
+.description {
     padding-top: 20px;
 }
 
-.camp{
+.camp {
     padding: 5px 5px;
     display: grid;
     grid-template-columns: 50% 50%;
     margin-top: 2em;
 }
-.content{
-    
-    margin: 7px 90px;
+
+.content {
+    margin: 0 auto -10px;
     background-color: #ffffff;
-    height: 232px;
-    width: 500px;
+    height: 35vh;
+    width: 70%;
     font-size: small;
     position: relative;
 }
-.index{
+
+.index {
     text-align: left;
     padding-left: 20px;
     padding-top: 20px;
     position: relative;
 }
 
-.course-btn{
+.course-btn {
     background-color: #f9a826;
     font-family: font-tertiary;
-    padding: 2px 4  px;
+    padding: 2px 4 px;
     border: none;
     font-size: 0.8em;
     margin-top: 8px;
 }
-a{
+
+.index a {
     color: black;
     font-size: 0.8em;
     font-weight: 500;
@@ -78,7 +92,7 @@ a{
     font-family: font-tertiary;
 }
 
-.bottom-heading{
+.bottom-heading {
     font-family: "Druk Text Wide Web Medium"!important;
     text-align: center;
     background-color: #f9a826;
@@ -88,5 +102,4 @@ a{
     position: absolute;
     bottom: 0;
     width: 100%;
-
 }
