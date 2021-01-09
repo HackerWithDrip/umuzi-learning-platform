@@ -1,97 +1,113 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://unpkg.com/swup@latest/dist/swup.min.js"></script>
     <script defer src="script.js"></script>
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/styles.css" />
     <title>about</title>
-</head>
+  </head>
 
-<body>
-
-    <div class="background">
+  <body>
+    <!-- WEBSITE -->
+    <main class="site">
+      <div class="background">
         <nav class="background__navbar">
-            <div class="logo">
-                <img src="/images/Umuzi+Logo+with+symbol_white.png" alt="">
-            </div>
-            <div class="nav__list">
-                <ul>
-                    <li class="nav__item"><a href="index.html" class="nav__link">Home</a></li>
-                    <li class="nav__item"><a href="about.html" class="nav__link">About</a></li>
-                    <li class="nav__item"><a href="main-category.html" class="nav__link">Category</a></li>
-                    <li class="nav__item"><a href="https://www.umuzi.org/" target="_blank" class="nav__link">Umuzi's Official Site</a></li>
-                    <li class="nav__item"><a href="mailto:info@umuzi.org" class="nav__link">Contact</a></li>
-                </ul>
-
-            </div>
-
+          <a href="./index.html">
+            <img
+              src="./img/logos/Umuzi-Logo-white.png"
+              alt="umuzi-logo"
+              class="background__navbar--logo"
+            />
+          </a>
+          <ul class="background__navbar--list">
+            <a href="./index.html">
+              <li>Home</li>
+            </a>
+            <a href="./main-category.html">
+              <li>Category</li>
+            </a>
+            <a href="./about.html">
+              <li>About</li>
+            </a>
+            <a href="mailto:info@umuzi.org">
+              <li>Contact</li>
+            </a>
+            <a href="https://www.umuzi.org/" target="_blank">
+              <li>Umuzi's Official Site</li>
+            </a>
+          </ul>
         </nav>
-        <!-- About  -->
-        <main id="swup" class="transition-fade">
-            <div class="content-row">
-                <div class="left-content">
-                    <h1 class="about-header"> ABOUT</h1>
 
-                    <p>THE UMUZI ONLINE PLATFORM WAS CREATED TO PROVIDE NEW
-                        <br> NEW RECRUITS WITH THE NECCESSARY SKILLS TO SUCCEED IN THE
-                        <br> BOOTCAMP.THIS IS A SEPARAATE PLATFORM FOM THE MAIN UMUZI WEBSITE
-                        <br> AND IT IS FULLY FOCUSED ON THE REQUIREMENTS
-                        <br> NEEDED TO MAKE IT through
-                        <br>
-                        <br>
-                        <br> IN ORDER TO GET STARTED SIMPLY CLICK ON THE CATEGORIES
-                        <br> SECTION AND SELECT YOUR CHOICE CAREER PATH .YOU WILL
-                        <br> THEN BE PRESENTED INFORMATON RELEVANT TO YOUR
-                        <br> CHOSEN FIELD, AS WELL AS ADDITIONAL LEARNING
-                        <br> RESOURCES
-                        <br>
-                        <br> WELCOME TO THE BEGINNING OF YOUR HIGH VALUE CAREER
-                        <br> GOOD LUCK
+        <!-- MAIN CONTENT -->
+        <div class="background__content">
+          <h1 class="background__about--title">About</h1>
 
-                    </p>
+          <p class="background__about--p1">
+            The umuzi online learning platform was created to provide new umuzi
+            recuits <br />
+            with the neccessary skills to succeed in the bootcamp. this is a
+            seperate <br />
+            platform from the main umuzi website and it is fully focused on the
+            <br />
+            requirements needed to make it through
+          </p>
+          <p class="background__about--p2">
+            in order to get started, simply click on the ‘categories’ section
+            and select <br />
+            your chosen career path. You will then be presented with information
+            <br />
+            relevant to your chosen field, as well as additional learning <br />
+            resources
+          </p>
+          <p class="background__about--p3">
+            welcome to the beginning of your high value career. <br />
+            good luck!!
+          </p>
 
-                    <div class="social-networks">
+          <img
+            src="./img/models/model-2.png"
+            alt="model-2"
+            class="background__about--image"
+          />
+        </div>
 
-                        <a href="">
-                            <img src="/images/instagram.png" alt="">
-                        </a>
-                        <a href="">
-                            <img src="/images/linkedin.png" alt="">
-                        </a>
-                        <a href="">
-                            <img src="/images/email.png" alt="">
-                        </a>
-                        <a href="">
-                            <img src="/images/twitter-(1).png" alt="">
-                        </a>
-                        <a href="">
-                            <img src="/images/facebook-(1).png" alt="">
-                        </a>
-
-
-
-
-
-                    </div>
-
-                </div>
-                <div class="right-content">
-                    <img src="img/models/model-2.png" alt="female-model">
-
-                </div>
-            </div>
-        </main>
-
-
-
-    </div>
-
-
-
-</body>
-
+        <!-- SOCIAL LINKS -->
+        <div class="background__socials">
+          <a href="#">
+            <img
+              src="./img/socials/twitter.png"
+              alt="twitter-icon"
+              class="twitter"
+            />
+          </a>
+          <a href="#">
+            <img
+              src="./img/socials/facebook.png"
+              alt="facebook-icon"
+              class="facebook"
+            />
+          </a>
+          <a href="#">
+            <img
+              src="./img/socials/instagram.png"
+              alt="instagram-icon"
+              class="instagram"
+            />
+          </a>
+          <a href="#">
+            <img
+              src="./img/socials/linkedin.png"
+              alt="linkedin-icon"
+              class="linkedin"
+            />
+          </a>
+          <a href="#">
+            <img src="./img/socials/email.png" alt="email-icon" class="email" />
+          </a>
+        </div>
+      </div>
+    </main>
+  </body>
 </html>
