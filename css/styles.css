@@ -278,10 +278,14 @@
 
 .categories {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    width: 60vw;
-    height: 80vh;
+    align-content: center;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    max-width: 800px;
+    width: 85%;
+    height: 100%;
     margin: 0 auto;
+    padding-bottom: 2em;
+    position: relative;
 }
 
 
@@ -290,6 +294,7 @@
 .imge {
     box-shadow: var(--bs);
     width: 90%;
+    position: relative;
 }
 
 .category {
