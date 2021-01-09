@@ -4,6 +4,26 @@
     color: #ffffff;
     margin-bottom: 3em;
 }
+/* transition the pages */
+
+.transition-fade {
+	opacity: 1;
+	transition: 500ms;
+	transform: translateX(0);
+	transform-origin: left;
+}
+
+html.is-animating .transition-fade {
+	opacity: 1;
+	transform: translateX(100%);
+}
+
+html.is-leaving .transition-fade {
+	opacity: 0;
+	transform: translateX(0);
+}
+/*end of transitioning  */
+
 
 .web-dev h1 {
     padding-top: 4px;
