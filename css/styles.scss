@@ -56,7 +56,7 @@ $gradient-orange: linear-gradient(to bottom right, #f6d166, #fda283);
     height: fit-content;
     width: 100%;
     background-image: radial-gradient(#3a404b, #21242b);
-    // box-shadow: $shadow;
+    box-shadow: $shadow;
     padding: 1.5rem 4rem 0 4rem;
 
     /* NAVIGATION */
@@ -121,14 +121,14 @@ $gradient-orange: linear-gradient(to bottom right, #f6d166, #fda283);
               color: #fff;
               text-transform: uppercase;
               font-family: font-main;
-              font-size: 1.7rem;
+              font-size: 2rem;
               transform: scaleY(0.8);
             }
             &--p2 {
               color: #fff;
               text-transform: uppercase;
               font-family: font-secondary;
-              font-size: 3.5rem;
+              font-size: 4rem;
               transform: scaleY(0.8);
               margin-top: -1.1rem;
             }
@@ -136,7 +136,7 @@ $gradient-orange: linear-gradient(to bottom right, #f6d166, #fda283);
               color: #fff;
               text-transform: uppercase;
               font-family: font-tertiary;
-              font-size: 0.6rem;
+              font-size: 0.8rem;
               margin-top: -0.65rem;
               margin-left: 0.3rem;
               font-weight: bold;
@@ -146,7 +146,7 @@ $gradient-orange: linear-gradient(to bottom right, #f6d166, #fda283);
               color: #fff;
               text-transform: uppercase;
               font-family: font-tertiary;
-              font-size: 0.48rem;
+              font-size: 0.6rem;
               margin-top: 1.2rem;
               margin-left: 0.3rem;
               letter-spacing: 0.38rem;
@@ -240,7 +240,7 @@ $gradient-orange: linear-gradient(to bottom right, #f6d166, #fda283);
         }
       }
       .background__home--image {
-        width: 26%;
+        width: 30%;
         margin-left: 8%;
       }
     }
@@ -249,6 +249,129 @@ $gradient-orange: linear-gradient(to bottom right, #f6d166, #fda283);
     &__footer {
       border-top: 0.1rem #fff solid;
       border-bottom: 0.1rem #fff solid;
+      padding: 2rem 0;
+    }
+
+    .footer__content {
+      display: flex;
+      &--left {
+        flex: 1;
+
+        .footer__content--about {
+          .title {
+            font-family: font-main;
+            color: #f9a826;
+            font-size: 1.5rem;
+            transform: scaleY(0.9);
+            margin-bottom: 0.8rem;
+          }
+
+          .text {
+            font-family: font-tertiary;
+            color: #fff;
+            font-size: 0.7rem;
+            letter-spacing: 0.2rem;
+            margin-bottom: 5rem;
+          }
+        }
+
+        .footer__content--contact {
+          .title {
+            font-family: font-main;
+            color: #f9a826;
+            font-size: 1.5rem;
+            transform: scaleY(0.9);
+            margin-bottom: 0.8rem;
+          }
+
+          .text {
+            font-family: font-tertiary;
+            color: #fff;
+            font-size: 0.7rem;
+            letter-spacing: 0.2rem;
+            display: flex;
+            align-items: center;
+
+            img {
+              width: 1.6rem;
+              height: 1rem;
+              margin-right: 1rem;
+            }
+          }
+        }
+      }
+
+      &--right {
+        flex: 1;
+
+        .footer__content--keepInTouch {
+          .title {
+            font-family: font-main;
+            color: #f9a826;
+            font-size: 1.5rem;
+            transform: scaleY(0.9);
+            margin-bottom: 0.8rem;
+          }
+          form {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            margin-bottom: 5rem;
+
+            input {
+              width: 12rem;
+              height: 2rem;
+              padding: 0.8rem;
+              margin-bottom: 1rem;
+            }
+
+            button {
+              color: #fff;
+              border: none;
+              background-color: $primary-orange;
+              font-family: font-tertiary;
+              height: 2rem;
+              width: 9rem;
+              padding: 0 0.5rem;
+              transition: all 0.35s ease-in-out;
+
+              &:hover {
+                cursor: pointer;
+                transform: scale(1.06);
+                box-shadow: $shadow;
+              }
+            }
+          }
+        }
+
+        .footer__content--links {
+          .title {
+            font-family: font-main;
+            color: #f9a826;
+            font-size: 1.5rem;
+            transform: scaleY(0.9);
+            margin-bottom: 0.8rem;
+          }
+
+          .links {
+            display: flex;
+            flex-direction: column;
+            a {
+              text-decoration: none;
+              font-family: font-tertiary;
+              color: #fff;
+              font-size: 0.7rem;
+              letter-spacing: 0.2rem;
+              transition: 0.5s ease-in-out all;
+              margin-bottom: 1rem;
+
+              &:hover {
+                color: $primary-orange;
+              }
+            }
+          }
+        }
+      }
     }
   }
 }
