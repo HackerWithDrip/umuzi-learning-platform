@@ -247,13 +247,14 @@ $gradient-orange: linear-gradient(to bottom right, #f6d166, #fda283);
 
     /* FOOTER */
     &__footer {
-      border-top: 0.1rem #fff solid;
-      border-bottom: 0.1rem #fff solid;
-      padding: 2rem 0;
     }
 
     .footer__content {
+      border-top: 0.1rem #fff solid;
+      border-bottom: 0.1rem #fff solid;
+      padding: 2rem 0;
       display: flex;
+
       &--left {
         flex: 1;
 
@@ -370,6 +371,33 @@ $gradient-orange: linear-gradient(to bottom right, #f6d166, #fda283);
               }
             }
           }
+        }
+      }
+    }
+
+    .footer__subcontent {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      color: #fff;
+      font-family: font-tertiary;
+      font-size: 0.7rem;
+      letter-spacing: 0.2rem;
+      padding: 1.5rem 0;
+
+      .socials {
+        display: flex;
+        align-items: center;
+        a {
+          background-color: $primary-orange;
+          padding: 0.3rem 0.4rem;
+          margin: 0 1rem;
+          border-radius: 2rem;
+        }
+
+        img {
+          width: 1rem;
+          height: 1rem;
         }
       }
     }
