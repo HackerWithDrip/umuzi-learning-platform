@@ -141,6 +141,7 @@ html.is-leaving .transition-fade {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  /* ABOUT PAGE */
   /* SPONSORS */
   /* SOCIALS */
 }
@@ -149,7 +150,6 @@ html.is-leaving .transition-fade {
   -webkit-transform: translateY(50%);
           transform: translateY(50%);
   /* HOME PAGE */
-  /* ABOUT PAGE */
 }
 
 .site .background .wrapper .content__wrapper .background__content .background__home--p1 {
@@ -219,7 +219,11 @@ html.is-leaving .transition-fade {
           box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034), 0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06), 0 22.3px 17.9px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px rgba(0, 0, 0, 0.086), 0 100px 80px rgba(0, 0, 0, 0.12);
 }
 
-.site .background .wrapper .content__wrapper .background__content .background__about--title {
+.site .background .wrapper .content__wrapper .about__wrapper {
+  margin-top: 8rem;
+}
+
+.site .background .wrapper .content__wrapper .background__about--title {
   font-size: 2.5rem;
   background: -webkit-gradient(linear, left top, right bottom, from(#f6d166), to(#fda283));
   background: linear-gradient(to bottom right, #f6d166, #fda283);
@@ -235,7 +239,7 @@ html.is-leaving .transition-fade {
   margin-bottom: 2rem;
 }
 
-.site .background .wrapper .content__wrapper .background__content .background__about--p1, .site .background .wrapper .content__wrapper .background__content .background__about--p2, .site .background .wrapper .content__wrapper .background__content .background__about--p3 {
+.site .background .wrapper .content__wrapper .background__about--p1, .site .background .wrapper .content__wrapper .background__about--p2, .site .background .wrapper .content__wrapper .background__about--p3 {
   color: #fff;
   text-transform: uppercase;
   font-family: font-tertiary;
@@ -243,15 +247,6 @@ html.is-leaving .transition-fade {
   letter-spacing: 0.2rem;
   margin-bottom: 2.5rem;
   line-height: 1.65rem;
-}
-
-.site .background .wrapper .content__wrapper .background__content .background__about--image {
-  position: absolute;
-  width: 36%;
-  margin-left: 48rem;
-  margin-top: -34.5rem;
-  -o-object-fit: contain;
-     object-fit: contain;
 }
 
 .site .background .wrapper .content__wrapper .background__sponsors {
@@ -293,6 +288,11 @@ html.is-leaving .transition-fade {
 
 .site .background .wrapper .background__home--image {
   width: 30%;
+  margin-left: 8%;
+}
+
+.site .background .wrapper .background__about--image {
+  width: 35%;
   margin-left: 8%;
 }
 
@@ -476,6 +476,13 @@ html.is-leaving .transition-fade {
   padding: 0.3rem 0.4rem;
   margin: 0 1rem;
   border-radius: 2rem;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+.site .background .footer__subcontent .socials a:hover {
+  -webkit-transform: scale(1.15);
+          transform: scale(1.15);
 }
 
 .site .background .footer__subcontent .socials img {

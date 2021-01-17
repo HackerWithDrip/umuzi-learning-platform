@@ -172,41 +172,37 @@ $gradient-orange: linear-gradient(to bottom right, #f6d166, #fda283);
               }
             }
           }
+        }
 
-          /* ABOUT PAGE */
-          .background__about {
-            &--title {
-              font-size: 2.5rem;
-              background: $gradient-orange;
-              -webkit-background-clip: text;
-              -webkit-text-fill-color: transparent;
-              text-transform: uppercase;
-              font-family: font-secondary;
-              transform: scaleY(0.8);
-              width: fit-content;
-              margin-bottom: 2rem;
-            }
+        /* ABOUT PAGE */
+        .about__wrapper {
+          margin-top: 8rem;
+        }
 
-            &--p1,
-            &--p2,
-            &--p3 {
-              color: #fff;
-              text-transform: uppercase;
-              font-family: font-tertiary;
-              font-size: 0.65rem;
-              // font-weight: bold;
-              letter-spacing: 0.2rem;
-              margin-bottom: 2.5rem;
-              line-height: 1.65rem;
-            }
+        .background__about {
+          &--title {
+            font-size: 2.5rem;
+            background: $gradient-orange;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            text-transform: uppercase;
+            font-family: font-secondary;
+            transform: scaleY(0.8);
+            width: fit-content;
+            margin-bottom: 2rem;
+          }
 
-            &--image {
-              position: absolute;
-              width: 36%;
-              margin-left: 48rem;
-              margin-top: -34.5rem;
-              object-fit: contain;
-            }
+          &--p1,
+          &--p2,
+          &--p3 {
+            color: #fff;
+            text-transform: uppercase;
+            font-family: font-tertiary;
+            font-size: 0.65rem;
+            // font-weight: bold;
+            letter-spacing: 0.2rem;
+            margin-bottom: 2.5rem;
+            line-height: 1.65rem;
           }
         }
 
@@ -241,6 +237,11 @@ $gradient-orange: linear-gradient(to bottom right, #f6d166, #fda283);
       }
       .background__home--image {
         width: 30%;
+        margin-left: 8%;
+      }
+
+      .background__about--image {
+        width: 35%;
         margin-left: 8%;
       }
     }
@@ -393,6 +394,10 @@ $gradient-orange: linear-gradient(to bottom right, #f6d166, #fda283);
           padding: 0.3rem 0.4rem;
           margin: 0 1rem;
           border-radius: 2rem;
+          transition: all 0.2s ease-in-out;
+          &:hover {
+            transform: scale(1.15);
+          }
         }
 
         img {
