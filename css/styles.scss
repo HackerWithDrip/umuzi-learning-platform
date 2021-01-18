@@ -552,7 +552,7 @@ $gradient-orange: linear-gradient(to bottom right, #f6d166, #fda283);
 @media only screen and (max-width: 1100px) {
   .site {
     .background {
-      padding: 1.5rem 2rem 0 4rem;
+      // padding: 1.5rem 2rem 0 4rem;
 
       .background__navbar {
         &--list {
@@ -568,6 +568,10 @@ $gradient-orange: linear-gradient(to bottom right, #f6d166, #fda283);
           transform: scale(0.85);
         }
       }
+
+      .category {
+        width: 20rem;
+      }
     }
   }
 }
@@ -575,7 +579,7 @@ $gradient-orange: linear-gradient(to bottom right, #f6d166, #fda283);
 @media only screen and (max-width: 1050px) {
   .site {
     .background {
-      padding: 1.5rem 2rem 0 4rem;
+      padding: 1.5rem 2rem 0 2rem;
 
       .background__footer {
         .footer__content {
@@ -672,6 +676,29 @@ $gradient-orange: linear-gradient(to bottom right, #f6d166, #fda283);
             transform: scale(0.8);
           }
         }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 910px) {
+  .site {
+    .background {
+      .category {
+        width: 18rem;
+      }
+    }
+  }
+}
+@media only screen and (max-width: 850px) {
+  .site {
+    .background {
+      .categories {
+        flex-direction: column;
+      }
+
+      .category {
+        width: 24rem;
       }
     }
   }
@@ -782,6 +809,10 @@ $gradient-orange: linear-gradient(to bottom right, #f6d166, #fda283);
           }
         }
       }
+
+      .category {
+        width: 23rem;
+      }
     }
   }
 }
@@ -815,6 +846,10 @@ $gradient-orange: linear-gradient(to bottom right, #f6d166, #fda283);
           }
         }
       }
+
+      .category {
+        width: 20rem;
+      }
     }
   }
 }
@@ -828,6 +863,10 @@ $gradient-orange: linear-gradient(to bottom right, #f6d166, #fda283);
             transform: scale(0.4);
           }
         }
+      }
+
+      .category {
+        width: 100%;
       }
     }
   }
