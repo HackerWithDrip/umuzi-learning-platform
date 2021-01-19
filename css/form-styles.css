@@ -33,7 +33,7 @@ body::before {
     width: 100%;
     z-index: -1;
     background: var(--color-darkblue);
-    background-image: linear-gradient(to bottom right, #f6d166, #fda283), url(https://www.sabcnews.com/sabcnews/wp-content/uploads/2020/04/SABC-News-Covid-19-1.png);
+    background-image: linear-gradient(to bottom right, #f6d166, #fda283), url(https://images.pexels.com/photos/1936299/pexels-photo-1936299.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
