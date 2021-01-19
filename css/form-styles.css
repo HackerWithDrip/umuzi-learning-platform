@@ -117,6 +117,16 @@ button {
 
 /* form */
 
+.umuzi {
+    width: 1px;
+    align-items: center;
+    padding-left: 14.75em;
+}
+
+img {
+    width: 150px;
+}
+
 form {
     background: radial-gradient(#3a404b, #21242b);
     ;
