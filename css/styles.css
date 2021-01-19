@@ -555,6 +555,15 @@ html.is-leaving .transition-fade {
 }
 
 /* MEDIA QUERIES */
+@media only screen and (max-width: 1440px) {
+  .site .background .wrapper .content__wrapper .background__about--p1, .site .background .wrapper .content__wrapper .background__about--p2, .site .background .wrapper .content__wrapper .background__about--p3 {
+    font-size: 0.6rem;
+    letter-spacing: 0.2rem;
+    margin-bottom: 2rem;
+    line-height: 1.65rem;
+  }
+}
+
 @media only screen and (max-width: 1359px) {
   .site .background .wrapper {
     height: calc(100vh - 118px);
@@ -576,14 +585,16 @@ html.is-leaving .transition-fade {
     padding: 0.9rem 2.1rem;
   }
   .site .background .wrapper .content__wrapper .about__wrapper {
-    margin-top: 5rem;
+    margin-top: 4rem;
   }
   .site .background .wrapper .content__wrapper .background__about--title {
     font-size: 2.3rem;
+    margin-bottom: 1rem;
   }
   .site .background .wrapper .content__wrapper .background__about--p1, .site .background .wrapper .content__wrapper .background__about--p2, .site .background .wrapper .content__wrapper .background__about--p3 {
     font-size: 0.55rem;
     line-height: 1.5rem;
+    margin-bottom: 1.2rem;
   }
   .site .background .wrapper .content__wrapper .background__sponsors {
     margin-left: 1rem;
@@ -591,6 +602,26 @@ html.is-leaving .transition-fade {
   .site .background .wrapper .background__home--image {
     margin-left: -4%;
     width: 28%;
+  }
+  .site .background .category {
+    width: 24rem;
+  }
+}
+
+@media only screen and (max-width: 1290px) {
+  .site .background .wrapper {
+    height: calc(100vh - 118px);
+  }
+  .site .background .wrapper .content__wrapper .about__wrapper {
+    margin-top: 2rem;
+  }
+  .site .background .wrapper .content__wrapper .background__about--title {
+    font-size: 2.3rem;
+  }
+  .site .background .wrapper .content__wrapper .background__about--p1, .site .background .wrapper .content__wrapper .background__about--p2, .site .background .wrapper .content__wrapper .background__about--p3 {
+    font-size: 0.55rem;
+    line-height: 1.5rem;
+    margin-bottom: 1.2rem;
   }
   .site .background .category {
     width: 24rem;
@@ -626,10 +657,29 @@ html.is-leaving .transition-fade {
   .site .background .wrapper .content__wrapper .background__content p {
     text-align: center;
   }
+  .site .background .wrapper .content__wrapper .about__wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+  }
+  .site .background .wrapper .content__wrapper .about__wrapper .background__about--title {
+    text-align: center;
+  }
   .site .background .wrapper .content__wrapper .background__sponsors {
     margin: 0 0 1rem 0;
   }
   .site .background .wrapper .background__home--image {
+    display: none;
+  }
+  .site .background .wrapper .background__about--image {
     display: none;
   }
 }
@@ -761,6 +811,20 @@ html.is-leaving .transition-fade {
   }
 }
 
+@media only screen and (max-width: 855px) {
+  .site .background .wrapper .content__wrapper .background__about--title {
+    font-size: 2.3rem;
+  }
+  .site .background .wrapper .content__wrapper .background__about--p1, .site .background .wrapper .content__wrapper .background__about--p2, .site .background .wrapper .content__wrapper .background__about--p3 {
+    font-size: 0.5rem;
+    line-height: 1.5rem;
+    margin-bottom: 1.2rem;
+  }
+  .site .background .category {
+    width: 24rem;
+  }
+}
+
 @media only screen and (max-width: 850px) {
   .site .background .categories {
     -webkit-box-orient: vertical;
@@ -779,6 +843,34 @@ html.is-leaving .transition-fade {
   }
   .site .background .wrapper .content__wrapper .background__content .background__home--p2 {
     font-size: 3.5rem;
+  }
+}
+
+@media only screen and (max-width: 791px) {
+  .site .background .wrapper .content__wrapper .background__about--title {
+    font-size: 2.1rem;
+  }
+  .site .background .wrapper .content__wrapper .background__about--p1, .site .background .wrapper .content__wrapper .background__about--p2, .site .background .wrapper .content__wrapper .background__about--p3 {
+    font-size: 0.45rem;
+    line-height: 1.5rem;
+    margin-bottom: 1.2rem;
+  }
+  .site .background .category {
+    width: 24rem;
+  }
+}
+
+@media only screen and (max-width: 761px) {
+  .site .background .wrapper .content__wrapper .background__about--title {
+    font-size: 2.1rem;
+  }
+  .site .background .wrapper .content__wrapper .background__about--p1, .site .background .wrapper .content__wrapper .background__about--p2, .site .background .wrapper .content__wrapper .background__about--p3 {
+    font-size: 0.35rem;
+    line-height: 1.5rem;
+    margin-bottom: 1.2rem;
+  }
+  .site .background .category {
+    width: 24rem;
   }
 }
 
@@ -865,6 +957,18 @@ html.is-leaving .transition-fade {
     -webkit-transform: scale(0.4);
             transform: scale(0.4);
   }
+  .site .background .wrapper .content__wrapper .about__wrapper {
+    -webkit-transform: scale(0.85);
+            transform: scale(0.85);
+  }
+  .site .background .wrapper .content__wrapper .about__wrapper .background__about--title {
+    font-size: 2.1rem;
+  }
+  .site .background .wrapper .content__wrapper .about__wrapper .background__about--p1, .site .background .wrapper .content__wrapper .about__wrapper .background__about--p2, .site .background .wrapper .content__wrapper .about__wrapper .background__about--p3 {
+    font-size: 0.6rem;
+    line-height: 1.5rem;
+    margin-bottom: 1.2rem;
+  }
   .site .background .category {
     width: 20rem;
   }
@@ -877,6 +981,39 @@ html.is-leaving .transition-fade {
   }
   .site .background .category {
     width: 100%;
+  }
+}
+
+@media only screen and (max-width: 415px) {
+  .site {
+    padding: 3.5rem 0;
+  }
+  .site .background .wrapper .content__wrapper .about__wrapper {
+    -webkit-transform: scale(0.8);
+            transform: scale(0.8);
+  }
+  .site .background .wrapper .content__wrapper .about__wrapper .background__about--title {
+    font-size: 2rem;
+  }
+  .site .background .wrapper .content__wrapper .about__wrapper .background__about--p1, .site .background .wrapper .content__wrapper .about__wrapper .background__about--p2, .site .background .wrapper .content__wrapper .about__wrapper .background__about--p3 {
+    font-size: 0.6rem;
+    line-height: 1.5rem;
+    margin-bottom: 1.2rem;
+  }
+}
+
+@media only screen and (max-width: 395px) {
+  .site .background .wrapper .content__wrapper .about__wrapper {
+    -webkit-transform: scale(0.7);
+            transform: scale(0.7);
+  }
+  .site .background .wrapper .content__wrapper .about__wrapper .background__about--title {
+    font-size: 2rem;
+  }
+  .site .background .wrapper .content__wrapper .about__wrapper .background__about--p1, .site .background .wrapper .content__wrapper .about__wrapper .background__about--p2, .site .background .wrapper .content__wrapper .about__wrapper .background__about--p3 {
+    font-size: 0.6rem;
+    line-height: 1.5rem;
+    margin-bottom: 1.2rem;
   }
 }
 /*# sourceMappingURL=styles.css.map */
