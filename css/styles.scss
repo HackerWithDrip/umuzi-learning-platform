@@ -310,6 +310,22 @@ $gradient-orange: linear-gradient(to bottom right, #f6d166, #fda283);
             }
           }
         }
+
+        .footer__content--feedback {
+          border: none;
+          background: $primary-orange;
+          color: #fff;
+          margin-top: 2.5rem;
+          font-size: 1.2rem;
+          padding: 1rem;
+          transition: all 0.35s ease-in-out;
+
+          &:hover {
+            cursor: pointer;
+            transform: scale(1.06);
+            box-shadow: $shadow;
+          }
+        }
       }
 
       &--right {
